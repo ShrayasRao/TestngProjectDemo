@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="68" started-at="2020-12-07T12:06:29 IST" finished-at="2020-12-07T12:06:29 IST">
+    <groups>
+      <group name="leave">
+        <method signature="GroupTest.leavemodule1()[pri:0, instance:com.orangehrmlive.GroupTest@9660f4e]" name="leavemodule1" class="com.orangehrmlive.GroupTest"/>
+        <method signature="GroupTest.leavemodule2()[pri:0, instance:com.orangehrmlive.GroupTest@9660f4e]" name="leavemodule2" class="com.orangehrmlive.GroupTest"/>
+      </group> <!-- leave -->
+      <group name="admin">
+        <method signature="GroupTest.adminmodue1()[pri:0, instance:com.orangehrmlive.GroupTest@9660f4e]" name="adminmodue1" class="com.orangehrmlive.GroupTest"/>
+        <method signature="GroupTest.adminmodue2()[pri:0, instance:com.orangehrmlive.GroupTest@9660f4e]" name="adminmodue2" class="com.orangehrmlive.GroupTest"/>
+      </group> <!-- admin -->
+    </groups>
+    <test name="Default test" duration-ms="68" started-at="2020-12-07T12:06:29 IST" finished-at="2020-12-07T12:06:29 IST">
+      <class name="com.orangehrmlive.GroupTest">
+        <test-method status="PASS" signature="adminmodue1()[pri:0, instance:com.orangehrmlive.GroupTest@9660f4e]" name="adminmodue1" duration-ms="8" started-at="2020-12-07T12:06:29 IST" finished-at="2020-12-07T12:06:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminmodue1 -->
+        <test-method status="PASS" signature="adminmodue2()[pri:0, instance:com.orangehrmlive.GroupTest@9660f4e]" name="adminmodue2" duration-ms="2" started-at="2020-12-07T12:06:29 IST" finished-at="2020-12-07T12:06:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminmodue2 -->
+        <test-method status="PASS" signature="leavemodule1()[pri:0, instance:com.orangehrmlive.GroupTest@9660f4e]" name="leavemodule1" duration-ms="6" started-at="2020-12-07T12:06:29 IST" finished-at="2020-12-07T12:06:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leavemodule1 -->
+        <test-method status="PASS" signature="leavemodule2()[pri:0, instance:com.orangehrmlive.GroupTest@9660f4e]" name="leavemodule2" duration-ms="2" started-at="2020-12-07T12:06:29 IST" finished-at="2020-12-07T12:06:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leavemodule2 -->
+      </class> <!-- com.orangehrmlive.GroupTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
