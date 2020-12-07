@@ -17,8 +17,12 @@ public class SeleniumDemo {
 		driver.findElement(By.id("txtPassword")).sendKeys("admin123");
 		
 		driver.findElement(By.name("Submit")).click();
-
 		
+		driver.get("www.google.in");
+		
+
+		driver.manage().window().maximize();
+
 		
 	}
 
